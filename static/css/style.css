@@ -20,6 +20,12 @@ span {
 li {
     list-style: none;
 }
+.log {
+    float: left;
+}
+.log img {
+    margin-top: 15px;
+}
 .header a {
     text-decoration: none;
     color: #393a39;
@@ -148,7 +154,7 @@ li {
 .news-img {
     width: 95%;
     height: 160px;
-    background-color: red;
+    background-color: #666;
 }
 .margin-auto {
     margin: 0 auto;
@@ -214,8 +220,63 @@ li {
 }
 .nextrow {
     float: right;
+    color: white;
+    cursor: pointer;
 }
 .media-contain {
-    width: 270px;
-    height: 250px;
+    width: 350px;
+    height: 270px;
+    text-align: center;
+}
+.meidia-img-height {
+    width: 350px;
+    height: 270px;
+    transition: all;
+}
+.end-img {
+    width: 146px;
+    height: 97px;
+}
+.end-title {
+    font-size: 16px;
+}
+.end-text {
+    font-size: 12px;
+    color: #191A18;
+}
+.company {
+    margin-top: 50px;
+    border-top: 1px solid #191A18;
+}
+.company-title {
+    font-size: 14px;
+    color: #191A18;
+    font-weight: bold;
+    margin: 50px 0 15px 0;
+}
+.contain a {
+    font-size: 12px;
+    color: #191A18;
+    margin: 15px 0 0 ;
+    text-decoration: none;
+}
+.pickup-block {
+    width: 260px;
+    height: 170px;
+    background-color: #666;
+}
+.pickup-title {
+    font-size: 16px;
+    color: #191A18;
+    margin: 10px 0 0;
+    /* font-weight: bold; */
+}
+.pick-text {
+    font-size: 14px;
+    line-height: 56px;
+    color: #191A18;
+    margin: 15px 0 0;
+}
+.end {
+    margin-top: 50px;
 }
