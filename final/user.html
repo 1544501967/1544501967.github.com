@@ -4,30 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>主页面</title>
+    <title>我的</title>
     <link rel="stylesheet" href="static/css/common.css">
-    <link rel="stylesheet" href="static/css/mian-one.css">
+    <link rel="stylesheet" href="static/css/user.css">
+    <script src="static/js/jquery-3.6.4.min.js"></script>
+    <script src="static/js/use.js"></script>
 </head>
 <body>
-    <div>
-        <div class="main">
-            <div class="search">
-                <input type="text" class="search-input">
-                <span></span>
+    <div class="u_main">
+        <div class="mar">
+            <div class="u_nav">
+                <div class="state">
+                    <span class="state_t"></span>
+                    <span class="state-text">添加状态</span>
+                </div>
+                <span class="u_s"></span>
             </div>
-            <div class="userinfo">
-                <span class="log"></span>
-                <span>用户</span>
-                <span class="fr">查看我的音乐DNA ></span>
+            
+            <div class="use-info">
+                <div class="use-img"></div>
+                <div class="use-text">XXX</div>
+                <div class="use-more">
+                    <span>3 关注</span>
+                    <span>0 关注</span>
+                    <span>Lv.10</span>
+                </div>
             </div>
-            <div class="love">
+            <div class="use-gongneng">
 
             </div>
-            <div class="contain">
-                <div class="block"><img src="static/media/3.png" alt=""></div>
-                <div class="block"><img src="static/media/4.png" alt=""></div>
-                <div class="block"><img src="static/media/5.png" alt=""></div>
-    
+            <div class="u-select">
+                <span class="fl u-select-selected">创建歌单</span>
+                <span class="fr">收藏歌单</span>
+            </div>
+            <div>
+            <!-- 创建歌单块 -->
+                <div class="new-music">
+                    <span class="fl">创建歌单（0个）</span>
+                    <span class="fr new"></span>
+                </div>
+                <!-- 收藏歌单块 -->
+                <div class="love-music" style="display: none;">
+                    <span class="fl">收藏歌单（0个）</span>
+                    <span class="fr new"></span>
+                </div>
             </div>
             <div class="end">
                 <div class="music">

@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'icomoon';
-    src:  url('../fonts/icomoon.eot?vy3eep');
-    src:  url('../fonts/icomoon.eot?vy3eep#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?vy3eep') format('truetype'),
-    url('../fonts/icomoon.woff?vy3eep') format('woff'),
-    url('../fonts/icomoon.svg?vy3eep#icomoon') format('svg');
+    src:  url('fonts/icomoon.eot?vy3eep');
+    src:  url('fonts/icomoon.eot?vy3eep#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?vy3eep') format('truetype'),
+    url('fonts/icomoon.woff?vy3eep') format('woff'),
+    url('fonts/icomoon.svg?vy3eep#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -17,6 +17,10 @@ span {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: black;
 }
 .main {
     width: 390px;
@@ -83,4 +87,12 @@ span {
 }
 .text-color {
     color: #a7d471;
+}
+.register {
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 15px;
+    margin-top: 10px;
+    cursor: pointer;
 }
