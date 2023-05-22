@@ -5,12 +5,11 @@
     border: 1px solid;
     border-color: #707070;
     margin: 0 auto;
+    position: relative;
 }
 .mar {
     width: 390px;
     height: 500px;
-    
-    
     /* position: relative; */
     overflow-x: hidden;
     overflow-y: auto;
